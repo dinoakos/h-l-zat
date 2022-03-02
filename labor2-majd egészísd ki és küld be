@@ -1,13 +1,13 @@
 4.1
 a
--8
--külső burkolat,árnyékolás,szigetelés,belső vezeték
--20
-b
--10
--külső burkolat,belső  burkolatok, érpárok,(shielding ha van)
--25
-c
 -5mm
--sma,st,sc,fc,lc,mu,mtrj,fddi
+-külső burkolat,árnyékolás,szigetelés,belső vezeték
+-15mm
+b
+-10mm
+-vezeték védő burkolat,vezeték árnyékolás, érpár árnyékolás,érpár,szigetelés,vezeték
+-22mm
+c
 -1
+-sma,lc,st,sc,fc,mtrj,fddi,mu
+-0.2mm
