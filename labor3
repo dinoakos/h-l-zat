@@ -1,0 +1,43 @@
+4.1
+A) Wireshark szkennelés alapján igazolja az alábbi kérdésekre adott válaszát:
+- Mekkora 1327 darab szkennelt keret mérete összesen? -
+244476
+- Mekkora a 6 másodperc alatti hálózati forgalom átlagos sávszélessége? -
+178
+- Mennyi keret haladt át a hálózati kártyán 6 másodperc alatt? -
+9
+- Mekkora a 6 másodperc alatt forgalmazott átlagos keretméret? -
+107
+B) Wireshark szkennelés alapján igazolja az alábbi kérdésekre adott válaszát:
+- Mekkora a tömörítési arány a pcap és a txt típusok esetén? -
+100:15
+- Mekkora a tömörítési arány a pcap és a pcapng típusok esetén? -
+21:25
+4.2
+A) Wireshark szkennelés alapján igazolja az alábbi kérdésekre adott válaszát:
+- Jelenítse meg az ARP/RARP, ICMP, ICMPv6, IPv4, IPv6, TCP, UDP és egyéb forgalmak
+időgrafikonját -
+
+- Mi a Cisco cég OUI kódja? -
+  00:00:0C
+- Mi az asztali gép NIC moduljának MAC címe? -
+ 0A-00-27-00-00-0A(getmac /v)
+
+B) Azonosítsa be a NIC MAC értékeket az alábbiak szerint:
+- Hol található az Interneten a NIC gyártó cégek MAC OUI azonosítói? -
+https://www.wireshark.org/tools/oui-lookup.html
+- Mi a következő NIC gyártó cégek MAC OUI kódjai: Cisco, HP, Apple, Xiaomi, Huawei -
+00:00:0C(cisco),10:00:90(hp),00:03:93(apple),00:9E:C8(xiaomi),00:18:82(huawei)
+4.3
+A) Mi a saját gép forgalmát kizárólagosan szűrő szkennelési szabály Wireshark esetén? -
+Not broadcast, not multicast
+B) Mi az üzenetszórási címre küldött kereteket kizárólagosan szűrő szkennelési szabály
+Wireshark esetén? -
+ip.addr == 255.255.255.255
+
+4.5
+A) Hol található a szkennelt keret lezáró mezője Wireshark esetén?
+
+B) Mit jelölnek a „.” karakterek a legalsó mezőben? -
+
+a packet végén fel nem használt byteokat -> üres helyet
