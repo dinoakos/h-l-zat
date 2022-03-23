@@ -23,9 +23,9 @@ D) Pontosan milyen paranccsal adott új sort az ARP táblához? arp -s ipcím ma
 E) Pontosan milyen paranccsal törölt statikus bejegyzést az ARP táblából? arp -d ipcím maccim
 4.4
     forrás          cél
-ip  128.119.119.43  128.119.119.175
+ip  128.119.119.43  128.119.248.227
 mac 89d9ac7320ef    6d1464a88b4d
-ip  128.119.119.175 128.119.248.53
-mac 6d1464a88b4d    925231c4f135
-ip 128.119.248.53   128.119.248.227
+ip  128.119.119.43  128.119.248.227
+mac 6d1464a88b4d    0fd969acc370
+ip 128.119.119.43   128.119.248.227
 mac 925231c4f135    0fd969acc370
