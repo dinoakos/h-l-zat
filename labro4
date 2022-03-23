@@ -1,0 +1,31 @@
+3.3
+arp -a
+ping 10.0.0.2
+arp -a
+4.1 175.63.156.163= (10101111 00111111 10011100 10100011) 255.255.192.0 = 11111111 11111111 11000000 00000000
+A) 
+10101111 00111111 10011100 10100011
+11111111 11111111 11000000 00000000
+10101111 00111111 10000000 00000000
+Hálózatazonosító:175.63.128.0 
+D) A címhez kapcsolt netmaszk /prefix és pontozott decimális formában: 255.255.192.0 /18
+F) 
+hálózati tartomány +1edik eleme
+Hálózati broadcast cím:175.63.191.255
+4.2. 
+A) Milyen IP címet kaptak a gépek a hálózatban? 10.0.0.1-3
+B) Hogyan lehetne módosítani az első gép IP címét az előző feladatban használt IP címre? sudo  ifconfig eth0 10.0.0.1 netmask 255.0.0.0
+4.3.
+A) Mi az 1. gép fizikai címe? Honnan tudja (csak a linux terminált használva)? ifconfig HWaddr 08:00:27:bb:4c:77
+B) Mi az ehhez a fizikai címhez rendelt gyártó neve? PCS Systemtechnik GmbH
+C) Mi történik az ARP táblával a kapcsolat bontása és újrakapcsolódás után? resetelődik
+D) Pontosan milyen paranccsal adott új sort az ARP táblához? arp -s ipcím maccim
+E) Pontosan milyen paranccsal törölt statikus bejegyzést az ARP táblából? arp -d ipcím maccim
+4.4
+    forrás          cél
+ip  128.119.119.43  128.119.119.175
+mac 89d9ac7320ef    6d1464a88b4d
+ip  128.119.119.175 128.119.248.53
+mac 6d1464a88b4d    925231c4f135
+ip 128.119.248.53   128.119.248.227
+mac 925231c4f135    0fd969acc370
