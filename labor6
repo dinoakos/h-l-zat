@@ -1,0 +1,11 @@
+4.1:
+A)vm2/3/4:Belső hálózat
+  vm1:Nat,Belső hálózat
+B)ifconfig *interfaceNév* *IP*
+4.2:
+A)a route tábla egy olyan lista mely tartalmazza hogy melyik átjárókon/címeken keresztül lehet elérni címeket.
+B)route
+C)route
+4.3:
+A)traceroute *url*
+B)Azt hogy mennyi idő alatt kap igazolást a küldő gép arról hogy az általa küldött packet megérkezett
