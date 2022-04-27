@@ -1,0 +1,12 @@
+3.1 winscp -
+3.2 193.225.40.246 
+3.3 nslookup -type=any/soa unideb.hu 8.8.8.8
+3.4 wireshark -
+4.1 22 Source Port: 63277 Destination Port: 65222
+  b) a szerver küldi a kérést a kliens részére hogy fogadja az adatokat.
+4.2 port 53
+    nem, minden kérésre egyből választ kapott
+4.3 nslookup -type=any microsoft.com -> 4
+    b)nslookup -type=any sony.com -> 1 óra
+4.4 a) ha 200-as válaszkódot kapjuk
+    b) az url adatait adja vissza
